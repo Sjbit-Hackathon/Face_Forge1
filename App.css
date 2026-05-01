@@ -1,0 +1,19 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden; /* For split screen to scroll independently */
+}
+
+.main-content {
+  flex: 1;
+  overflow-y: auto; /* Allow normal pages to scroll */
+  display: flex;
+  flex-direction: column;
+}
